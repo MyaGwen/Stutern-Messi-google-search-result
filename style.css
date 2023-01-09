@@ -465,6 +465,110 @@ main {
 
 }
 
+.videos .vid-header {
+    display: flex;
+    align-items: center;
+}
+
+.vid-header span {
+    font-size: 22px;
+}
+
+.vid-header img {
+    height: 24px;
+    margin-left: 5px;
+}
+
+.vid-video {
+    display: flex;
+}
+
+.vid-content {
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: 46px;
+    width: 124px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.vid-content .play {
+    color: #fff;
+    left: 50%;
+    opacity: 0.87;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    height: 38px;
+    z-index: 1001;
+}
+
+.vid-content .play img {
+    height: 35px;
+}
+
+.play-time {
+    width: 44px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+    position: absolute;
+    z-index: 1001;
+    bottom: 0px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, .54);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 1px 8px;
+    /* text-align: center; */
+}
+
+
+
+.vid-content a img {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.vid-content a img:hover {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.vid-content a video {
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    height: 100%;
+    /* display: none; */
+    visibility: none;
+}
+
+
+.vid-content a video:hover {
+    position: absolute;
+    z-index: 1000;
+    visibility: visible;
+}
+
+
+.vid-text {
+    height: 94px;
+    padding: 12px 0 12px 20px;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
 aside {
     width: 50%;
     max-width: 400px;
