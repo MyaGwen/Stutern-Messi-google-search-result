@@ -92,6 +92,7 @@ header .lionel-messi {
     cursor: pointer;
     display: flex;
     align-items: flex-end;
+    padding-bottom: 8px;
 }
 
 .lm-borders .lm-border {
