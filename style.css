@@ -44,6 +44,74 @@ a {
     color: var(--secondary-color);
 }
 
+header .lionel-messi {
+    margin: 4px 0 17px;
+    padding-top: 8px;
+    display: flex;
+}
+
+.lionel-messi .pic-text {
+    margin-right: 16px;
+}
+
+.pic-text {
+    display: flex;
+}
+
+.pic-text .pic img {
+    margin-right: 19px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.pic-text .section-header {
+    padding-top: 8px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.pic-text .text {
+    line-height: 17px;
+}
+
+.pic-text .text .football {
+    font-size: 14px;
+    color: #969ba1;
+    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.text span img {
+    padding: 1px 0 1px 6px;
+    height: 20px;
+
+}
+
+.lm-borders {
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lm-borders .lm-border {
+    margin: 14px 0 6px 8px;
+    padding: 0 1px 1px;
+}
+
+.lm-border span {
+    padding: 11px 19px;
+    border-radius: 100px;
+    background-color: #46474c;
+}
+
+.lm-border span:hover {
+    background-color: #656569;
+}
+
+.overview {
+    outline: 1px solid;
+}
 
 .main-aside-container {
     display: flex;
@@ -54,7 +122,11 @@ a {
 aside {
     margin-left: 44px;
     padding-bottom: 15px;
+}
+
+.messi-bio {
     border-left: 1px solid var(--border);
+
 }
 
 .about {
@@ -132,6 +204,59 @@ aside {
     color: var(--secondary-color);
     display: flex;
     align-items: flex-end;
+}
+
+
+/* Profiles */
+
+.profiles {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+aside .profiles .section-header {
+    padding-bottom: 0;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.profile-socials:not(hr) {
+    display: flex;
+}
+
+.ps-item a {
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+}
+
+.instagram {
+    padding-right: 8px;
+}
+
+.youtube,
+.facebook {
+    padding: 0 8px;
+}
+
+.ps-item a img {
+    height: 32px;
+    width: 32px;
+    border: 4px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+
+.ps-item a span {
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.ps-item a:hover {
+    text-decoration: underline var(--primary-color);
 }
 
 
@@ -229,7 +354,9 @@ aside {
 }
 
 .more-news hr,
-.about-content hr {
+.about-content hr,
+.profiles hr,
+.stats hr {
     margin-top: 18px;
     border: 0;
     height: 1px;
@@ -392,7 +519,7 @@ aside {
     /* position: relative; */
     display: flex;
     align-items: center;
-    color: var(--primary-color);
+    color: var(--header-color);
     padding-bottom: 8px;
 }
 
