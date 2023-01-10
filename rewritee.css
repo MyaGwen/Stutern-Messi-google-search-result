@@ -1,0 +1,811 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --base: #262626;
+    --border: #3c4043;
+    --aside: #8e8e8e;
+    --footer: #1a1818;
+    --background: #202124;
+    --header-color: #e8eaed;
+    --primary-color: #bdc1c6;
+    --secondary-color: #9aa0a6;
+
+}
+
+body {
+    position: relative;
+    color: var(--primary-color);
+    background: var(--background);
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    color: #8ab4f8;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.header-svg {
+    color: #8e8e8e;
+    height: 30px;
+}
+
+.header-nav-wrapper {
+    border-bottom: 1px solid #494646;
+    margin-top: 1.9rem;
+}
+
+.header-nav-wrapper header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header,
+header .search {
+    display: flex;
+}
+
+.left-header {
+    position: relative;
+}
+
+.left-header .logo a img {
+    height: 2.1em;
+}
+
+
+.logo {
+    padding: 4px 28px 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .left-header form {
+    background-color: #303134;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 50rem;
+    height: 50px;
+    padding: 3px 4px 3px 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .search-tools img {
+    margin-left: 7px;
+}
+
+/* header form .form-svg {
+    justify-content: flex-start;
+} */
+
+header form input[type="text"] {
+    flex: 1;
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 1.3em;
+    /* flex: 1;
+    display: flex; */
+}
+
+.search-tools {
+    display: flex;
+}
+
+.header-svg {
+    padding-left: 10px;
+}
+
+.close--svg {
+    display: flex;
+    align-items: center;
+}
+
+.close-svg {
+    padding-right: 10px;
+    padding-left: 0 !important;
+    cursor: pointer;
+}
+
+.close-border {
+    height: 100%;
+    width: 2px;
+    background-color: #5f5a5a;
+
+}
+
+.search-tools:last-child {
+    padding-right: 10px;
+}
+
+
+/* RIGHT HEADER */
+
+
+
+header .right-header {
+    /* position: absolute;
+    right: 30px; */
+    display: flex;
+    align-items: center;
+
+    padding-right: 40px;
+}
+
+.right-header-links {
+    display: flex;
+}
+
+.right-header-links a {
+    margin-left: 10px;
+}
+
+
+.right-header-links .profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: #004d40;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* NAV */
+
+
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-svg {
+    height: 16px;
+}
+
+/* MAIN */
+
+.main-aside {
+    display: flex;
+    padding-top: 20px;
+}
+
+main {
+    width: 50%;
+    margin-left: 11rem;
+    margin-right: 3.5rem;
+}
+
+/* top stories section */
+
+
+.top-stories-header p {
+    font-size: 22px;
+    color: var(--header-color);
+}
+
+
+/* PSG NEWS */
+
+
+.psg-post-time {
+    color: var(--secondary-color);
+    /* display: flex;
+    align-items: flex-end; */
+    padding: 12px 0;
+}
+
+.psg-news-header {
+    display: flex;
+    align-items: center;
+}
+
+.psg-news-header p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.psg-news-header img {
+    height: 24px;
+}
+
+.psg-news-content {
+    border-top: 1px solid #3c4043;
+    border-bottom: 1px solid var(--border);
+    padding: 10px 0 30px;
+    display: flex;
+    position: relative;
+}
+
+
+/* PSG NEWS A */
+
+
+.psg-news-content-A {
+    width: 50%;
+    border-right: 1px solid #3c4043;
+    padding-right: 15px;
+}
+
+/* DAILY AND GOAL MAIL */
+
+.the-independent,
+.marca {
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-independent-logo,
+.goal-mail-logo,
+.marca-logo,
+.chelsea-chronicle-logo {
+    margin-bottom: 8px;
+}
+
+.psg-news-content-B .the-independent a,
+.psg-news-content-B .goal-mail a {
+    font-size: 1.2em;
+    line-height: 27px;
+}
+
+.psg-news-content-B .the-independent {
+    display: flex;
+}
+
+.the-independent-B,
+.goal-mail-B {
+    margin-left: 0.8rem;
+
+}
+
+.the-independent-B img,
+.goal-mail-B img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100px;
+}
+
+.psg-news-content-A .goal-mail,
+.chelsea-chronicle {
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* PSG NEWS B*/
+
+
+.psg-news-content-B {
+    width: 50%;
+    padding-left: 10px;
+}
+
+a .more-news {
+    height: 36px;
+    width: 340px;
+    background-color: #303134;
+    position: absolute;
+    bottom: -17px;
+    left: 28%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.more-news-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-news-content img {
+    height: 20px;
+    margin-left: 4px;
+}
+
+.more-news-content span {
+    margin-right: 4px;
+}
+
+
+
+.wikipedia {
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: 70px;
+}
+
+.link-header {
+    display: flex;
+}
+
+.wiki-menu,
+.twitter-menu {
+    width: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.wikipedia .wiki-menu img,
+.twitter-menu img,
+.barca-menu img {
+    height: 19px;
+    padding-bottom: 2px;
+}
+
+.wikipedia .link-header a,
+.twitter .link-header a,
+.barca .link-header a {
+    color: #bdc1c6;
+    font-size: 15px;
+}
+
+.wikipedia .link-header a span {
+    color: #969ba1;
+}
+
+.wiki-news-header .link,
+.twitter-news-header .link,
+.barca-news-header .link {
+    padding-top: 5px;
+    font-size: 22px;
+}
+
+.wiki-news .psg-post-time {
+    padding: 0;
+}
+
+.wiki-news div:first-child {
+    max-width: 680px;
+}
+
+.wiki-news-A,
+.barca-news {
+    padding-top: 5px;
+}
+
+.wiki-news .link {
+    padding-top: 5px;
+}
+
+/* twitter */
+
+
+.twitter,
+.barca {
+    margin-top: 50px;
+}
+
+.people-also-ask {
+    margin: 44px 0;
+}
+
+.people-also-ask .paa-header {
+    margin-bottom: 16px;
+    font-size: 22px;
+}
+
+.people-also-ask img {
+    transform: rotate(90deg);
+    height: 30px;
+}
+
+/* .paa-contents {
+    margin-bottom: 10px;
+} */
+
+.paa-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--border);
+}
+
+.paa-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-border {
+    /* border: 1px solid var(--border); */
+    height: 1px;
+    width: 100%;
+    background-color: var(--border);
+}
+
+.paa-feedback div:nth-child(2) {
+    font-size: 14px;
+    color: var(--secondary-color);
+    margin-left: 14px;
+
+}
+
+/* 
+.videos .vid-header {
+    display: flex;
+    align-items: center;
+}
+
+.vid-header span {
+    font-size: 22px;
+}
+
+.vid-header img {
+    height: 24px;
+    margin-left: 5px;
+}
+
+.vid-video {
+    display: flex;
+}
+
+.vid-content {
+    position: relative;
+    margin-top: 11px;
+    margin-bottom: 46px;
+    width: 124px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.vid-content .play {
+    color: #fff;
+    left: 50%;
+    opacity: 0.87;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    height: 38px;
+    z-index: 1001;
+}
+
+.vid-content .play img {
+    height: 35px;
+}
+
+.play-time {
+    width: 44px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+    position: absolute;
+    z-index: 1001;
+    bottom: 0px;
+    left: 8px;
+    background-color: rgba(0, 0, 0, 0.54);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.vid-video {
+    display: flex;
+}
+
+.vid-content a img {
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.vid-content a img:hover {
+    display: none;
+}
+
+.vid-content a video {
+    position: absolute;
+    left: 0;
+    border-radius: 5px;
+    height: 100%;
+    visibility: none;
+}
+
+
+.vid-content a video:hover {
+    position: absolute;
+    z-index: 1000;
+    visibility: visible;
+}
+
+
+.vid-text {
+    height: 94px;
+    padding: 12px 0 12px 20px;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    display: flex;
+} */
+
+
+
+aside {
+    width: 50%;
+    max-width: 400px;
+    margin-right: 6rem;
+    margin-top: 6px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid var(--border);
+}
+
+.about-header {
+    font-size: 22px;
+    color: var(--color);
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
+    border-bottom: 1px solid var(--border);
+}
+
+.feedback p {
+    font-size: 13px;
+}
+
+.about .feedback button {
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--color);
+    width: 249px;
+}
+
+.about .feedback button img {
+    height: 16px;
+    padding-right: 8px;
+}
+
+.profiles {
+    padding-bottom: 13px;
+    border-bottom: 1px solid var(--border);
+}
+
+.profile-socials {
+    display: flex;
+}
+
+.instagram,
+.youtube,
+facebook {
+    margin-right: 20px;
+}
+
+.stats-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .stats-header:hover {
+    cursor: pointer;
+} */
+
+.stats-header p:hover {
+    text-decoration: underline;
+}
+
+.stats-header .arrow {
+    height: 35px;
+    width: 35px;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-header .arrow:hover {
+    background: #303140;
+}
+
+.stats-header img {
+    height: 20px;
+}
+
+/* TABLE */
+
+.table-header a {
+    font-size: 15px;
+    color: #bdc1c6;
+}
+
+.table-header a:hover {
+    text-decoration: underline #8ab4f8;
+}
+
+
+
+
+
+
+
+
+
+/* Pager */
+table.pager {
+    margin: 30px auto 30px;
+    border-collapse: collapse;
+}
+
+/* tr {
+    vertical-align: top;
+}
+
+.pager-td {
+    padding: 0;
+    text-align: center;
+}
+
+.pager-td a {
+    color: #4285f4;
+}
+
+.pager-td a:hover {
+    text-decoration: underline;
+}
+
+.pager-G {
+    display: block;
+    background: url(../images/google-pager.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height: 40px;
+}
+
+.pager-red-o {
+    display: block;
+    background: url(../images/google-pager.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+}
+
+.pager-yellow-o {
+    display: block;
+    background: url(../images/google-pager.webp) no-repeat;
+    background-position: -74px 0;
+    width: 20px;
+    height: 40px;
+}
+
+.pager-gle {
+    display: block;
+    background: url(../images/google-pager.webp) no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+    height: 40px;
+}
+
+.pager-next {
+    margin-left: 53px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 106px;
+    padding-top: 12px;
+    margin-top: 10px;
+    background: #171717;
+    line-height: 40px;
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: var(--secondary-color);
+}
+
+.footer-A {
+    border-bottom: 1px solid #3c4043;
+    font-size: 14px;
+    padding-left: 27px;
+    line-height: 44px;
+    display: flex;
+}
+
+.footer-A span {
+    font-size: 15px;
+}
+
+.footer-A .circle {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 13px;
+    padding-left: 16px;
+    border-left: 1px solid #3c4043;
+    color: #999da2;
+    line-height: 15px;
+}
+
+.footer-A .circle span:first-child {
+    margin: 6px 4px 9px 0;
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    vertical-align: middle;
+    width: 10px;
+    background-color: #999da2;
+}
+
+.footer-A .circle span:nth-child(2) {
+    font-weight: 700;
+}
+
+.footer-B {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+/* .footer-B span {
+    margin-left: 28px;
+} */
+
+.footer-B span a {
+    color: var(--secondary-color);
+    line-height: 22px;
+    padding-left: 27px;
+}
+
+.footer-B span a:hover {
+    color: var(--primary-color);
+
+}
