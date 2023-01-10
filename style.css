@@ -206,6 +206,7 @@ nav ul li {
     margin: 4px 0 17px;
     padding-top: 8px;
     display: flex;
+    margin-left: 11rem;
 }
 
 .lionel-messi .pic-text {
@@ -283,6 +284,11 @@ nav ul li {
     margin-right: 3.5rem;
     margin-top: 6px;
     margin-bottom: 44px;
+}
+
+nav {
+    margin-left: 11rem;
+
 }
 
 /*ASIDE */
