@@ -515,7 +515,6 @@ aside .profiles .section-header {
 
 .ts-news-content-B {
     padding-left: 15px;
-
 }
 
 
@@ -746,27 +745,11 @@ aside .profiles .section-header {
 
 /* ARGENTINA PLAYERS */
 
-/* .asp-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 0;
-    min-height: 40px;
-} */
-
-/* .asp-header span {
-    margin: 4px 0;
-}
-
-.asp-header img {
-    transform: rotate(-90deg);
-    height: 24px;
-} */
 
 .asp,
 .paa {
     font-size: 14px;
-    /* border-top: 1px solid black; */
+    cursor: pointer;
     padding: 8px 0;
     width: 100%;
 }
@@ -778,7 +761,9 @@ aside .profiles .section-header {
     align-items: center;
 }
 
-.paa-header .header span:first-child {
+.paa-header .header span:first-child,
+.asp-header .header span:first-child {
+    cursor: pointer;
     font-size: 16px;
     margin: 8px 0;
     padding: 0 !important;
