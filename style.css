@@ -44,7 +44,165 @@ a {
     color: var(--secondary-color);
 }
 
-header .lionel-messi {
+.header-svg {
+    color: #8e8e8e;
+    height: 30px;
+}
+
+.header-nav-wrapper {
+    border-bottom: 1px solid #494646;
+    margin-top: 1.9rem;
+}
+
+.header-nav-wrapper header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header,
+header .search {
+    display: flex;
+}
+
+.left-header {
+    position: relative;
+}
+
+.left-header .logo a img {
+    height: 2.1em;
+}
+
+
+.logo {
+    padding: 4px 28px 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .left-header form {
+    background-color: #303134;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 50rem;
+    height: 50px;
+    padding: 3px 4px 3px 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .search-tools img {
+    margin-left: 7px;
+}
+
+/* header form .form-svg {
+    justify-content: flex-start;
+} */
+
+header form input[type="text"] {
+    flex: 1;
+    width: 70%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: 1.3em;
+    /* flex: 1;
+    display: flex; */
+}
+
+.search-tools {
+    display: flex;
+}
+
+.header-svg {
+    padding-left: 10px;
+}
+
+.close--svg {
+    display: flex;
+    align-items: center;
+}
+
+.close-svg {
+    padding-right: 10px;
+    padding-left: 0 !important;
+    cursor: pointer;
+}
+
+.close-border {
+    height: 100%;
+    width: 2px;
+    background-color: #5f5a5a;
+
+}
+
+.search-tools:last-child {
+    padding-right: 10px;
+}
+
+
+/* RIGHT HEADER */
+
+
+
+header .right-header {
+    /* position: absolute;
+    right: 30px; */
+    display: flex;
+    align-items: center;
+
+    padding-right: 40px;
+}
+
+.right-header-links {
+    display: flex;
+}
+
+.right-header-links a {
+    margin-left: 10px;
+}
+
+
+.right-header-links .profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: #004d40;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* NAV */
+
+
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-svg {
+    height: 16px;
+}
+
+.header-nav-wrapper .lionel-messi {
     margin: 4px 0 17px;
     padding-top: 8px;
     display: flex;
@@ -118,11 +276,24 @@ header .lionel-messi {
     display: flex;
 }
 
+
+.main-aside-container main {
+    width: 505;
+    margin-left: 11rem;
+    margin-right: 3.5rem;
+    margin-top: 6px;
+    margin-bottom: 44px;
+}
+
 /*ASIDE */
 
 aside {
     margin-left: 44px;
     padding-bottom: 15px;
+    width: 50%;
+    max-width: 400px;
+    margin-right: 6rem;
+    margin-top: 6px;
 }
 
 .messi-bio {
@@ -613,7 +784,7 @@ aside .profiles .section-header {
 }
 
 .team-name {
-    font-size: 16px;
+    font-size: 16px !important;
     margin: 4px 0;
 }
 
