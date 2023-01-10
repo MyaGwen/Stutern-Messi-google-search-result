@@ -894,6 +894,8 @@ aside .profiles .section-header {
 
 .asp-see-more .search-link:hover {
     /* background-color: var(--primary-color); */
+    text-decoration: none;
+    background-color: #656569;
 }
 
 .seemore-button {
