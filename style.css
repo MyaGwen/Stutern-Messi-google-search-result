@@ -535,10 +535,35 @@ aside .profiles .section-header {
     width: 195px;
 }
 
+.messi-four {
+    position: relative;
+}
+
 .messi-4 img {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 145px;
+}
+
+.more-images .more {
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    border-bottom-right-radius: 12px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 4px;
+}
+
+.more-images .more img {
+    height: 20px;
+    margin-top: 6px;
+    margin-right: 8px;
 }
 
 /* TOP STORIES */
