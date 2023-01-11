@@ -192,6 +192,7 @@ nav .nav {
     justify-content: space-between;
     width: 680px;
     color: var(--secondary-color);
+    margin-left: 11rem;
 }
 
 .nav-svg {
