@@ -184,8 +184,17 @@ header .right-header {
 
 /* NAV */
 
-
 nav {
+    display: flex;
+}
+
+.nav-svg {
+    height: 16px;
+}
+
+
+
+/* nav {
     margin: 20px;
 }
 
@@ -198,15 +207,32 @@ nav ul li {
     align-items: center;
 }
 
-.nav-svg {
-    height: 16px;
+ */
+
+/* LOADING TIME */
+
+.header-margin-left {
+    margin-left: 11rem;
+
+}
+
+.loading-time {
+    min-width: 652px;
+    line-height: 43px;
+    padding-right: 8px;
+    /* margin-left: 28px; */
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.loading-time a {
+    font-size: 14px;
 }
 
 .header-nav-wrapper .lionel-messi {
     margin: 4px 0 17px;
     padding-top: 8px;
     display: flex;
-    margin-left: 11rem;
 }
 
 .lionel-messi .pic-text {
