@@ -786,9 +786,12 @@ aside .profiles .section-header {
     margin: 5px 0;
 }
 
+.brit-3 {
+    font-size: 14px;
+}
+
 .brit-3-table-row {
     display: table-row;
-    font-size: 14px;
     line-height: 22px;
 
 }
