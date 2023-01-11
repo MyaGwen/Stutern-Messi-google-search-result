@@ -854,13 +854,19 @@ aside .profiles .section-header {
 
 .asp-profiles {
     margin: 8px 0 16px;
-    display: inline-flex;
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.asp-profile {
+    width: 102px;
+
 }
 
 .asp-profile a {
     color: var(--primary-color);
-    margin-right: 8px;
-    width: 102px;
+    /* margin-right: 8px; */
 }
 
 .asp-profile a:hover {
@@ -874,7 +880,7 @@ aside .profiles .section-header {
 }
 
 .asp-profile-name {
-    width: 50%;
+    width: 75%;
     margin: 0 8px;
     line-height: 19px;
     font-size: 14px;
