@@ -1058,25 +1058,33 @@ footer {
     height: 106px;
     padding-top: 12px;
     margin-top: 10px;
-    background-color: #171717;
     color: var(--secondary-color);
     line-height: 40px;
     padding-bottom: 12px;
     position: absolute;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100vw;
+}
+
+.footer {
+    background-color: #171717;
 }
 
 .location {
     border-bottom: 1px solid #3c4043;
     font-size: 14px;
     padding-left: 27px;
+    padding-top: 12px;
     line-height: 44px;
     display: flex;
+
 }
 
 .country {
     font-size: 15px;
+    color: var(--secondary-color);
 }
 
 .city-links a {
@@ -1114,6 +1122,7 @@ footer {
 .footer-links {
     font-size: 14px;
     line-height: 40px;
+    padding-bottom: 12px;
 }
 
 .footer-links span a {
