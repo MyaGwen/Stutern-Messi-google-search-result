@@ -878,8 +878,16 @@ aside .profiles .section-header {
 
 /* VIDEOS */
 
-.videoo {
+
+/* .videos {
+} */
+
+
+
+
+.video {
     display: flex;
+    height: 94px;
 }
 
 .videos .vid-header {
@@ -946,8 +954,12 @@ aside .profiles .section-header {
     display: flex;
 }
 
+.vid-content a {
+    margin: 12px 0;
+}
+
 .vid-content a img {
-    height: 100%;
+    /* height: 100%; */
     border-radius: 5px;
     position: absolute;
     z-index: 1000;
@@ -974,12 +986,32 @@ aside .profiles .section-header {
 
 
 .vid-text {
-    height: 94px;
+    /* height: 94px; */
     padding: 12px 0 12px 20px;
     flex-direction: column;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: space-between;
     display: flex;
+}
+
+/* .vid-text .blue-link {
+    margin-bottom: 12px;
+} */
+
+.vid-text a {
+    color: #bdc1c6;
+    font-size: 15px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.vid-text a span:nth-child(2) {
+    color: #969ba1;
+    font-size: 14px;
+}
+
+.vid-text .post-time {
+    font-size: 14px;
 }
 
 
