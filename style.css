@@ -85,7 +85,7 @@ header .left-header form {
     /* margin: 0 auto; */
     /* min-width: 538px; */
     width: 690px;
-    height: 50px;
+    height: 48px;
     padding: 5px 4px 5px 14px;
     display: flex;
     align-items: center;
@@ -208,7 +208,7 @@ header .right-header {
     border-radius: 100%;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #004d40;
     display: flex;
     align-items: center;
