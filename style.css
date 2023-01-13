@@ -562,10 +562,10 @@ aside .profiles .section-header {
 
 .pasf-profile {
     width: 78px;
+    margin-right: 8px;
 }
 
 .pasf-profile a {
-    margin-right: 8px;
     padding-bottom: 8px;
     color: var(--primary-color);
 }
