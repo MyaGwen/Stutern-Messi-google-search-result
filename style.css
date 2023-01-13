@@ -538,9 +538,58 @@ aside .profiles .section-header {
 }
 
 
+/* STATS */
+
+.stats a {
+    color: var(--primary-color);
+}
+
+.stats-header a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-header a:hover {
+    text-decoration: underline var(--primary-color);
+}
+
+.stats-header .section-header {
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.stats-header .arrow {
+    border: 1px solid #3c4043;
+    border-radius: 50%;
+    margin-left: 16px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow img {
+    height: 20px;
+    width: 20px;
+    list-style: 20px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.stats-header .arrow:hover {
+    background-color: rgba(255, 255, 255, .54);
+}
+
+
 /* PEOPLE ALSO SEARCH FOR */
 
 
+
+.stats,
 .about-people-also-search {
     padding-left: 20px;
     padding-bottom: 20px;
