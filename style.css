@@ -538,6 +538,58 @@ aside .profiles .section-header {
 }
 
 
+/* PEOPLE ALSO SEARCH FOR */
+
+
+.about-people-also-search {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* width: 336px; */
+
+}
+
+.about-people-also-search .section-header {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.pasf-profiles {
+    margin: 16px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pasf-profile {
+    width: 78px;
+}
+
+.pasf-profile a {
+    margin-right: 8px;
+    padding-bottom: 8px;
+    color: var(--primary-color);
+}
+
+.pasf-profile-pic {
+    margin-bottom: 8px;
+}
+
+.pasf-profile-pic img {
+    height: 78px;
+    width: 78px;
+    border-radius: 8px;
+}
+
+.pasf-profile-name {
+    margin: 0 8px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.about-people-also-search .asp-see-more .search-link {
+    width: auto;
+}
+
 /* MAIN */
 
 
@@ -639,6 +691,7 @@ aside .profiles .section-header {
 
 .tsn-content-A-A {
     display: flex;
+    justify-content: space-between;
     padding-right: 12px;
     position: relative;
     height: 143px;
@@ -1188,7 +1241,6 @@ aside .profiles .section-header {
 
 .asp-profile {
     width: 102px;
-
 }
 
 .asp-profile a {
