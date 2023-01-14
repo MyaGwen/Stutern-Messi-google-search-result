@@ -286,8 +286,7 @@ nav .nav {
 
 
 .header-margin-left {
-    margin-left: 11rem;
-
+    margin-left: calc(11rem + 11px);
 }
 
 .loading-time {
@@ -303,7 +302,7 @@ nav .nav {
     font-size: 14px;
 }
 
-.header-nav-wrapper .lionel-messi {
+.header-margin-left .lionel-messi {
     margin: 4px 0 17px;
     padding-top: 8px;
     display: flex;
@@ -373,9 +372,12 @@ nav .nav {
     border: 1px solid var(--primary-color);
 }
 
+
+
 .main-aside-container {
     display: flex;
 }
+
 
 
 .main-aside-container main {
@@ -389,7 +391,7 @@ nav .nav {
 /*ASIDE */
 
 aside {
-    margin-left: 44px;
+    margin-left: 60px;
     padding-bottom: 15px;
     width: 50%;
     max-width: 400px;
