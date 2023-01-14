@@ -606,7 +606,7 @@ aside .profiles .section-header {
     font-size: 14px;
 }
 
-table {
+aside table {
     /* border-color: border; */
     width: 100%;
     /* border-spacing: 2px;
@@ -615,27 +615,27 @@ table {
     font-size: 14px
 }
 
-table,
-tr,
-td {
+aside table,
+aside tr,
+aside td {
     /* border: 1px solid #c4dcf3; */
     border-left: 0;
     border-right: 0;
     border-collapse: collapse;
 }
 
-table .table-th {
+aside table .table-th {
     border-top: none !important;
 }
 
 
-table tr:first-child {
+aside table tr:first-child {
     color: var(--secondary-color);
     font-size: 12px;
     border-bottom: 1px solid var(--border);
 }
 
-table tr:first-child td {
+aside table tr:first-child td {
     padding: 8px 0;
 }
 
