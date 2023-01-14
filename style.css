@@ -465,6 +465,11 @@ aside {
     padding: 8px;
 }
 
+.about-content .feedback .button:hover {
+    text-decoration: none;
+    background-color: #3c4043;
+}
+
 .button a {
     color: var(--primary-color);
     display: flex;
@@ -589,7 +594,7 @@ aside .profiles .section-header {
 }
 
 .stats-header .arrow:hover {
-    background-color: rgba(255, 255, 255, .54);
+    background-color: #3c4043;
 }
 
 .table {
@@ -1451,7 +1456,7 @@ th {
 .asp-see-more .search-link:hover {
     /* background-color: var(--primary-color); */
     text-decoration: none;
-    background-color: #656569;
+    background-color: #3c4043;
 }
 
 .seemore-button {
