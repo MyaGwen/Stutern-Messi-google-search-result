@@ -655,32 +655,6 @@ aside table tr:first-child td {
     padding-bottom: 8px;
 }
 
-/* table,
-td,
-th {
-    border: 1px solid #c4dcf3;
-    border-left: 0;
-    border-right: 0;
-    border-collapse: collapse;
-} */
-
-/* tr {
-    display: table-row;
-    border: 1px solid #c4dcf3;
-} */
-
-/* th {
-    box-sizing: border-box;
-    padding: 8px 0;
-    display: table-cell;
-    font-weight: lighter;
-    font-size: 14px;
-    color: var(--secondary-color);
-} */
-
-
-
-
 
 /* PEOPLE ALSO SEARCH FOR */
 
@@ -704,6 +678,10 @@ th {
     font-size: 14px;
     display: flex;
     justify-content: space-between;
+}
+
+.pasf-profile:hover {
+    text-decoration: underline;
 }
 
 .pasf-profile {
